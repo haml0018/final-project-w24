@@ -12,18 +12,17 @@ img {
 }
 
 header {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
     padding: 20px;
 }
 
-header .headeralign img:nth-child(1){
-    justify-self: start;
+header .headeralign {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
 
-header .headeralign nav:nth-child(2){
-    justify-self: end;
+header div img {
+    width: 400px;
 }
 
 header a {
